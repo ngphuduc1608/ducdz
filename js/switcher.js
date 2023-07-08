@@ -80,7 +80,7 @@ function updateIconAndLogo() {
 /* ------------------ toggle music --------------- */
 const music = document.querySelector(".music");
 let audio = document.getElementById("myAudio");
-alert("Nhớ bật nhạc ở góc phải để chill nhen ")
+alert("Hello !  ")
 music.addEventListener("click", function () {
     if (this.classList.contains("pause")) {
         audio.play();
